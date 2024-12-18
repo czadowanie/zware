@@ -119,7 +119,7 @@ fn addWast2Json(b: *Build) *Build.Step.Compile {
     return wast2json;
 }
 
-const test_names = [_][]const u8 {
+const test_names = [_][]const u8{
     "address",
     "align",
     "binary-leb128",
@@ -211,7 +211,7 @@ const test_names = [_][]const u8 {
     "utf8-invalid-encoding",
 };
 
-const wabt_files = [_][]const u8 {
+const wabt_files = [_][]const u8{
     "src/binary-reader-ir.cc",
     "src/binary-reader-logging.cc",
     "src/binary-reader.cc",
