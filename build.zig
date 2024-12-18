@@ -85,6 +85,7 @@ fn addWast2Json(b: *Build) *Build.Step.Compile {
         .include_path = "wabt/config.h",
     }, .{
         .WABT_VERSION_STRING = "1.0.34",
+        .WABT_DEBUG = 0,
         .HAVE_SNPRINTF = 1,
         .HAVE_SSIZE_T = 1,
         .HAVE_STRCASECMP = 1,
